@@ -1,9 +1,9 @@
 # terraform-custom-domain-website-with-tls-on-aws
 
-## This module creates aws resources to deploy static website, spa or (after addtional  configuration) any client side rendered frontend.
+## This module creates aws resources to deploy static website, spa or (after additional  configuration) any client side rendered frontend.
 
 
-To use this module you need aws account, Terraform and AWS CLI installed end configured.
+To use this module you need an aws account, Terraform and AWS CLI installed and configured.
 
 Before applying any changes to your infrastructure, please customize data in following files:
 
@@ -12,11 +12,11 @@ Before applying any changes to your infrastructure, please customize data in fol
 *run.sh*
 
 Terraform can only MANAGE a DNS DOMAIN that has been registered before but CAN NOT REGISTER it.<br>
-Regarding that fact run.sh contains a AWS CLI command calling Route53 api to register custom domain.<br>
+Regarding that fact, run.sh contains an AWS CLI command calling Route53 api to register a custom domain.<br>
 
 ### WARNING!!!
 
-### If chosen domain is available it will be registered and BILLED automaticaly.
+### If the chosen domain is available it will be registered and BILLED automatically.
 
 Some TLD names are really expensive!
 
@@ -54,7 +54,7 @@ ___
 
 ### Register domain with aws 
 
-According to [AWS docs][1]
+According to [aws cli docs][1]
 
 > *The following register-domain command registers a domain, retrieving all parameter values from a  
 > JSON-formatted file.*
