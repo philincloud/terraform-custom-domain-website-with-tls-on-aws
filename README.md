@@ -29,14 +29,17 @@ S3:
   - aws_s3_bucket_versioning
   - aws_s3_bucket_website_configuration
   - aws_s3_bucket_object
+  
 Route53:
   - aws_route53domains_registered_domain
-  - aws_route53_hosted_zone    # imported from existing hosted_zone created by rout53 when domain is registered
-  - aws_route53_record         # for TLS cert validation 
-  - aws_route53_record         # for Cloudfront distribution  
+  - aws_route53_hosted_zone (imported from existing hosted_zone created by rout53 when domain is registered)
+  - aws_route53_record      (for TLS cert validation) 
+  - aws_route53_record      (for Cloudfront distribution) 
+   
 ACM
   - aws_acm_certificate
   - aws_acm_certificate_validation
+
 Cloudfront:
   - aws_acm_cloudfront_distribution
   - aws-acm_             
