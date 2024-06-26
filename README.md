@@ -54,13 +54,14 @@ ___
 
 ### Register domain with aws 
 
-> The following register-domain command registers a domain, retrieving all parameter values from a  
+> *The following register-domain command registers a domain, retrieving all parameter values from a  
 > JSON-formatted file.
 >
 > This command runs only in the us-east-1 Region. If your default region is set to us-east-1, you can omit 
-> the region parameter.
+> the region parameter.*
 >
->  ```aws route53domains register-domain \
+>  ```
+      aws route53domains register-domain \
 >         --region us-east-1 \
 >         --cli-input-json file://register-domain.json
 >  ```
