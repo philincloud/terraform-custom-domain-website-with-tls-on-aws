@@ -2,6 +2,9 @@
 
 ## This module creates aws resources to deploy static website, spa or (after addtional  configuration) any client side rendered frontend.
 
+
+To use this module you need aws account, Terraform and AWS CLI installed end configured.
+
 Before applying any changes to your infrastructure, please customize data in following files:
 
 *register_domain.json*<br>
@@ -47,5 +50,18 @@ You can find list of new domains prices here: <br>https://d32ze2gidvkk54.cloudfr
   - aws_acm_cloudfront_distribution
   - aws-acm_             
 
+___
 
+### Register domain with aws 
+
+> The following register-domain command registers a domain, retrieving all parameter values from a  
+> JSON-formatted file.
+>
+> This command runs only in the us-east-1 Region. If your default region is set to us-east-1, you can omit 
+> the region parameter.
+>
+>  ```aws route53domains register-domain \
+>         --region us-east-1 \
+>         --cli-input-json file://register-domain.json
+>  ```
 
