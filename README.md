@@ -1,6 +1,6 @@
 <h2>terraform-custom-domain-website-with-tls-on-aws</h2>
 
-<h3>This Terraform module creates aws resources neccessery to deploy static website, spa or (after addtional  configuration) any client side rendered frontend.</h3> 
+<h3>This Terraform module creates aws resources to deploy static website, spa or (after addtional  configuration) any client side rendered frontend.</h3> 
 
 <p>Before applying any changes to your infrastructure, please customize data in following files:</p>
 
