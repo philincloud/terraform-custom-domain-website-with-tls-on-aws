@@ -13,16 +13,16 @@ Regarding that fact run.sh contains a AWS CLI command calling Route53 api to reg
 
 <h4>WARNING!!!</h4>
 
-<h5>If chosen domain is available it will be registered and BILLED automaticaly.</h5><br> 
+<h4>If chosen domain is available it will be registered and BILLED automaticaly.</h4><br> 
 You can find list of new domains prices here: <br>https://d32ze2gidvkk54.cloudfront.net/Amazon_Route_53_Domain_Registration_Pricing_20140731.pdf</p>
 
 
 <p>List of resources created by module:
 
 S3:
-  - aws_s3_bucket
+  - aws_s3_bucket          (as static file server)
   - aws_s3_bucket__acl
-  - aws_s3_bucket_cors_configuration
+  - aws_s3_bucket_cors_configuration 
   - aws_s3_bucket_ownership_controls
   - aws_s3_bucket_policy
   - aws_s3_bucket_public_access_block
