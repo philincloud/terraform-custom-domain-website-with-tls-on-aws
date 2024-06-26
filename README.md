@@ -60,9 +60,7 @@ ___
 > This command runs only in the us-east-1 Region. If your default region is set to us-east-1, you can omit 
 > the region parameter.*
 >
->  ```
-      aws route53domains register-domain \
+>  ```aws route53domains register-domain \
 >         --region us-east-1 \
->         --cli-input-json file://register-domain.json
->  ```
+>         --cli-input-json file://register-domain.json```
 
