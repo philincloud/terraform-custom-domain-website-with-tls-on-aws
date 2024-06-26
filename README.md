@@ -61,7 +61,7 @@ ___
 > the region parameter. *
 >
 > ```bash
-      aws route53domains register-domain \
+>      aws route53domains register-domain \
 >         --region us-east-1 \
 >         --cli-input-json file://register-domain.json
 > ```
