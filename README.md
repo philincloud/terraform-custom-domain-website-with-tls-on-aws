@@ -54,6 +54,8 @@ ___
 
 ### Register domain with aws 
 
+According to [AWS docs][1]
+
 > *The following register-domain command registers a domain, retrieving all parameter values from a  
 > JSON-formatted file.*
 >
@@ -66,3 +68,7 @@ ___
 >         --cli-input-json file://register-domain.json
 > ```
 
+
+
+
+[1]: https://docs.aws.amazon.com/cli/latest/reference/route53domains/register-domain.html
