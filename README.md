@@ -11,9 +11,10 @@
 <p>Terraform can only MANAGE a DNS DOMAIN that has been registered before but CAN NOT REGISTER it.<br>
 Regarding that fact run.sh contains a AWS CLI command calling Route53 api to register custom domain.<br>
 
-<h4>WARNING!!!</h4>
+<h3>WARNING!!!</h3>
 
-<h4>If chosen domain is available it will be registered and BILLED automaticaly.</h4><br> 
+<h3>If chosen domain is available it will be registered and BILLED automaticaly.</h3><br> 
+Some TLD names are expensive!
 You can find list of new domains prices here: <br>https://d32ze2gidvkk54.cloudfront.net/Amazon_Route_53_Domain_Registration_Pricing_20140731.pdf</p>
 
 
