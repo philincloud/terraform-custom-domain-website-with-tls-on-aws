@@ -65,9 +65,10 @@ According to [aws cli docs][1]
 > ```bash
 >      aws route53domains register-domain \
 >         --region us-east-1 \
->         --cli-input-json file://register-domain.json
+>         --cli-input-json file://data/register-domain.json
 > ```
 
+Please remember to edit /data/register-domain.json before you run your terraform script.
 
 
 
